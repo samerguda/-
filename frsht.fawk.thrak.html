@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>قصيدة فرشت بين ثراك الطاهر</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 20px;
+    direction: rtl;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    display: inline-block;
+}
+
+h1 {
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+.poem p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 10px 0;
+    color: #495057;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+</style>
+
+<body>
+    <div class="container">
+        <h1>قصيدة فرشت بين ثراك الطاهر</h1>
+        <div id="poem" class="poem">
+            <p>فرشتُ بين ثراكَ الطاهرِ الهدبا</p>
+            <p>في العيدِ رجواكِ في الأعيادِ أحتسبا</p>
+            <p>وهبتُ سمعي لنجوى الطيرِ فيكِ وما</p>
+            <p>أروع النجوى وما أوفى بكِ الطربا</p>
+            <p>ناديكِ عند بكاء الطهر أرجعه</p>
+            <p>وذاكِ عند نداءِ اللهِ أحتسبا</p>
+            <p>يا ناهدي في ظلالِ اللهِ أنشده</p>
+            <p>إذ القريبُ بمغنى المهدِ قد ضربا</p>
+            <p>أيقنتُ أنَّ الثكالى قد ترعرعت</p>
+            <p>في مهجةِ الطهرِ أو أنَّ الذي صُلبا</p>
+            <p>ألقاكِ في ظُلمةِ الأعيادِ حالمةً</p>
+            <p>بالطهرِ حولكِ يجري مُغرِبا عجبا</p>
+            <p>وأنتِ تهبِينا من روحِ اللهِ سُلّمه</p>
+            <p>في العيدِ ما طابَ من روحِ اللهِ قد طُربا</p>
+            <p>يا فاطماً بنتُ من أسماكِ بأمنيةٍ</p>
+            <p>وبُرئتِ فيكِ لكي تأتيكِ بالطلبا</p>
+            <p>يا بنتِ من رفعَ في طهرِ الحشا قدساً</p>
+            <p>ما ردَ يا بنتُ قلباً ضامياً وثبا</p>
+            <p>فيكِ الأماني وحيُ اللهِ ينطقها</p>
+            <p>عطراً بلفظِ رسولِ اللهِ قد كتبا</p>
+        </div>
+        <button onclick="changeColor()">تغيير لون النص</button>
+    </div>
+
+<script>
+    function changeColor() {
+    const poem = document.getElementById('poem');
+    const currentColor = poem.style.color;
+    poem.style.color = currentColor === 'red' ? '#495057' : 'red';
+}
+</script>
+
+    <script src="script.js"></script>
+</body>
+</html>
